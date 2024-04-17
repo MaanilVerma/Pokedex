@@ -1,4 +1,4 @@
-### Scroll Below to find all Pokemon first one is a Featured Pokemon on website
+### Scroll Below to find Pokemon List | First one on the Page is a Featured Pokemon on website
 
 LIVE URL:- https://pokedex-black-nine.vercel.app/
 
