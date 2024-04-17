@@ -19,7 +19,7 @@ import Header from "../Header/Header";
 import Waves from "../Waves/Waves";
 import { BoltIcon } from "@/public/static/images/BoltIcon";
 import { DividerFire } from "@/public/static/images/DividerFire";
-import ScrollDownIcon from "../ScrollBelowIndicator/ScrollBelowIndicator";
+import ScrollDownIndicator from "../ScrollBelowIndicator/ScrollBelowIndicator";
 
 type HeroSectionProps = {
   setModal: (value: boolean) => void;
@@ -75,7 +75,7 @@ const HeroSection = ({ setModal, setPokemonData }: HeroSectionProps) => {
 
         <Waves />
       </HeroSectionContainer>
-      <ScrollDownIcon />
+      <ScrollDownIndicator />
     </>
   );
 };
