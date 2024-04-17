@@ -20,6 +20,7 @@ import Waves from "../Waves/Waves";
 import { BoltIcon } from "@/public/static/images/BoltIcon";
 import { DividerFire } from "@/public/static/images/DividerFire";
 import ScrollDownIndicator from "../ScrollBelowIndicator/ScrollBelowIndicator";
+import Image from "next/image";
 
 type HeroSectionProps = {
   setModal: (value: boolean) => void;
@@ -63,11 +64,13 @@ const HeroSection = ({ setModal, setPokemonData }: HeroSectionProps) => {
             </Divider>
 
             <CharizardImg>
-              <img
+              <Image
                 src={imgSrc.src}
                 width="488"
                 height="528"
                 alt="Charizard Picture"
+                priority
+                loading="eager"
               />
             </CharizardImg>
           </HeroSectionContent>
