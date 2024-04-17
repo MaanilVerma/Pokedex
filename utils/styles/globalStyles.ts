@@ -51,7 +51,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   .main-container {
-    max-width: 78rem;
+    max-width: 85rem;
     padding: 0 1rem;
     margin: 0 auto;
   }
