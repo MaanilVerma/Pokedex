@@ -27,5 +27,3 @@ const HomeButton = (props: HomeButtonProps) => {
 };
 
 export default HomeButton;
-
-//  Scroll Below Icon in Middle or ADD For list scroll below this is a featured pokemon
